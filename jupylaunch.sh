@@ -27,4 +27,5 @@ docker run \
     -it \
     -p 8888:8888 \
     -v $overlay:/home/jovyan/work \
-    jupyter/minimal-notebook
+    jupyter/scipy-notebook:overlay
+
